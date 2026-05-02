@@ -3,7 +3,6 @@ import fs from 'fs'
 
 
 // add food item 
-
 const addFood = async (req,res) => {
 
 
@@ -27,5 +26,9 @@ const addFood = async (req,res) => {
     
 }
 
+// all food list
+const listFood = async (req,res) => {
 
-export {addFood}
+}
+
+export {addFood,listFood} 

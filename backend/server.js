@@ -16,7 +16,7 @@ connectDB();
 
 // api endpoints 
 app.use("/api/food",foodRouter) // when we access this route, it will be handled by foodRouter
-
+app.use("/images",express.static('uploads'))
 
 app.get("/",(req,res)=> {
     res.send("API Working ") // when we access the root route, it will send this response
