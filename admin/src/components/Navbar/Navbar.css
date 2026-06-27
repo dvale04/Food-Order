@@ -8,3 +8,6 @@
     width: max(10%, 80px);
     
 }
+.navbar .profile {
+    width: 40px;
+}
