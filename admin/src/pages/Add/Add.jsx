@@ -21,7 +21,6 @@ const Add = () => {
             <div className="add-product-description flex-col">
                 <p>Product description</p>
                 <textarea name="description" rows="6" placeholder='Write content here' req>
-
                 </textarea>
             </div>
             <div className="add-category-price">
@@ -45,8 +44,8 @@ const Add = () => {
             </div>
             <button type='submit' className='add-btn'>ADD</button>
         </form>
-        </div>
     </div>
+</div>
   )
 }
 
